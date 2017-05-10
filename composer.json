@@ -8,11 +8,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "bloody-hell/xdan-datetimepicker" : "*"
-        },
-    "autoload": {
-        "psr-4": {
-            "toxufe\\yii2_xdan_datetimepicker\\" : ""
-        }
+        "bloody-hell/xdan-datetimepicker" : "*",
+        "toxufe/yii2-xdan-datetimepicker": "dev-master"
     }
 }
