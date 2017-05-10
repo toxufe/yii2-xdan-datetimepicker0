@@ -6,13 +6,18 @@
     "type": "extension",
     "authors": [],
     "require": {
-        "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "bloody-hell/xdan-datetimepicker" : "*"
-        },
-    "autoload": {
+     },
+     "autoload": {
         "psr-4": {
-            "toxufe\\yii2_xdan_datetimepicker\\" : ""
+            "toxufe\\yii2-xdan-datetimepicker\\" : ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }
