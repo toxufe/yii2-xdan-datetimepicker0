@@ -1,0 +1,18 @@
+{
+    "name": "toxufe/yii2-xdan-datetimepicker",
+    "description": "Yii2 wrapper for xdan/datetimepicker",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "type": "extension",
+    "authors": [],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bloody-hell/xdan-datetimepicker" : "*"
+        },
+    "autoload": {
+        "psr-4": {
+            "toxufe\\yii2_xdan_datetimepicker\\" : ""
+        }
+    }
+}
